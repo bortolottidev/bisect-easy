@@ -11,3 +11,8 @@ test("properly works addition with lot of numbers", () => {
   const res = classicAddFunction(1, 2, 3, 4);
   assert.strictEqual(res, 10);
 });
+
+test("my current test suite doesnt know the regression", () => {
+  const res = classicAddFunction(1, 2, 3, 4, 5);
+  assert.strictEqual(res, 15);
+});

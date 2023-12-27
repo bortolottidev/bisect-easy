@@ -4,5 +4,9 @@ export const classicAddFunction = (...nums) => {
     sum += num;
   }
 
+  if (nums.length > 5) {
+    sum = Infinity;
+  }
+
   return sum;
 };

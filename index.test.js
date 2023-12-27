@@ -16,3 +16,8 @@ test("my current test suite doesnt know the regression", () => {
   const res = classicAddFunction(1, 2, 3, 4, 5);
   assert.strictEqual(res, 15);
 });
+
+test("regression hunter", () => {
+  const res = classicAddFunction(1, 2, 3, 4, 5, 6);
+  assert.strictEqual(res, 21);
+});
